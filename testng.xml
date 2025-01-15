@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite">
+    
+    <listeners>
+        <listener class-name="org.allureReport.AllureListener"></listener>
+        <listener class-name="org.testng.reporters.EmailableReporter2"></listener>
+    </listeners>
+
+    <test name="Regression">
+        <classes>
+            <class name="org.testRunner.TestNGTestRunner"/>
+        </classes>
+    </test> <!-- Test -->
+
+</suite> <!-- Suite -->

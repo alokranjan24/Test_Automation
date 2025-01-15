@@ -1,0 +1,1237 @@
+22:21:21.233 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+22:21:21.263 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:21:21.363 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:21:21.413 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"9a7853ce-6ca7-41ad-8939-7f39a72ada15","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:pre-test":0.022800002247095108},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"cucumber","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+22:21:22.174 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+22:21:22.194 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:28:06.785 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:30:57.770 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:31:43.410 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+22:31:43.450 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:31:43.520 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:31:43.670 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"ad0a3b3b-91c2-41d5-80e2-919131bf8d29","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:pre-test":0.042899999767541885},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"cucumber","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+22:31:44.451 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+22:31:44.471 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:36.907 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:37:37.377 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+22:37:37.377 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+22:37:38.547 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener org.allureReport.AllureListener -socket57637 @w@C:\Users\Anupama\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Anupama\AppData\Local\Temp\idea_testng.tmp
+22:37:38.547 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:37:38.558 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+22:37:38.628 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+22:37:38.628 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+22:37:38.628 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.3
+22:37:38.628 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+22:37:38.628 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+22:37:38.628 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+22:37:38.628 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+22:37:39.054 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:37:39.224 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 170ms
+22:37:40.075 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 830ms
+22:37:41.195 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1120ms
+22:37:41.205 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:37:41.215 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:41.225 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:37:41.235 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"product":"[automate, observability]","buildName":"bstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":3,"parseDependencies":70},"language":"java","sdkRunId":"fb0127cb-3eee-45ad-8161-0c038a391afe","buildIdentifier":"1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.29.3","hostname":"LAPTOP-C2U6NKPV","language_framework":"java_testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:37:41.730 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+22:37:41.768 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:41.768 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+22:37:41.768 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 777
+22:37:41.768 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 777
+22:37:42.870 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:37:42.870 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:37:42.870 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0
+22:37:42.870 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+22:37:42.880 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 14_Jan_2237_LAPTOP_C2U6NKPV_uNqN
+22:37:49.956 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:51.206 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 2 and number of platforms - 2
+22:37:51.496 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.506 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.526 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.526 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.526 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.526 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.526 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.536 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.536 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.536 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.566 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.566 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.566 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.566 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.566 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.576 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.586 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.596 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:51.606 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-14T17:07:51.606678200Z][ OBSERVABILITY ] Processing Logs patching stream
+22:37:51.606 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:51.734 [setUpClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:37:51.734 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:37:51.736 [setUpClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:37:51.736 [setUpClass@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:37:51.843 [setUpClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:37:51.843 [setUpClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:37:51.843 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:37:51.843 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:37:51.856 [setUpClass@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:37:51.856 [setUpClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:37:51.859 [setUpClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:51.859 [setUpClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:52.697 [Test_Automation-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:37:52.697 [Test_Automation-1@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:37:52.697 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:37:52.697 [Test_Automation-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:37:52.747 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:37:52.747 [Test_Automation-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:37:52.747 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:37:52.747 [Test_Automation-1@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:37:52.770 [Test_Automation-1@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+22:37:52.770 [Test_Automation-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+22:37:52.770 [Test_Automation-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:52.770 [Test_Automation-1@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:53.082 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:53.083 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:37:53.515 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1736874473515
+
+22:37:53.515 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 37
+
+22:37:53.525 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 11386
+22:37:53.535 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 11386
+22:37:53.795 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:37:53.795 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:37:53.795 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:07:53.795127500Z][ TESTHUB ] Batch event successfull!
+
+22:37:54.585 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:37:54.585 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 34
+22:37:54.585 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:54.585 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:37:55.516 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+22:37:57.519 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+22:37:59.289 [runScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:37:59.289 [runScenario@1] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 35
+22:37:59.289 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:37:59.289 [runScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:38:01.521 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+22:38:02.451 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:38:02.451 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+22:38:02.451 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:02.451 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:02.451 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:02.531 [Forwarding get on session af8438d7962ed1515617af36914661a884e510dc to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.pom.swablabs.SwagLabsActions.login(SwagLabsActions.java:21)
+	at org.stepDefinition.SwagLab_StepDefinition.user_is_on_the_swag_lab_e_commerce_application_login_page_https_www_saucedemo_com(SwagLab_StepDefinition.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+22:38:05.512 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+22:38:07.517 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+22:38:08.037 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:38:08.037 [runScenario@1] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+22:38:08.037 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:08.037 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:08.037 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:08.047 [Forwarding get on session d336a079f6258e7de21be607b246cd5b35437e80 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.pom.swablabs.SwagLabsActions.login(SwagLabsActions.java:21)
+	at org.stepDefinition.SwagLab_StepDefinition.user_is_on_the_swag_lab_e_commerce_application_login_page_https_www_saucedemo_com(SwagLab_StepDefinition.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+22:38:09.521 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+22:38:11.522 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+22:38:12.048 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:12.058 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:12.058 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:12.058 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:15.522 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+22:38:15.522 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+22:38:15.522 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 997
+22:38:15.522 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 997
+22:38:15.812 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:15.812 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:15.812 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:15.812406300Z][ TESTHUB ] Batch event successfull!
+
+22:38:19.517 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+22:38:21.339 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:21.339 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:21.339 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:21.339 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:21.519 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+22:38:21.519 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+22:38:21.519 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1003
+22:38:21.519 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1003
+22:38:21.749 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:21.749 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:21.749 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:21.749735100Z][ TESTHUB ] Batch event successfull!
+
+22:38:25.519 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+22:38:28.507 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:28.507 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:29.518 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+22:38:29.518 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+22:38:29.518 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 509
+22:38:29.518 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 509
+22:38:29.802 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:29.802 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:29.802 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:29.802579900Z][ TESTHUB ] Batch event successfull!
+
+22:38:31.523 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+22:38:35.521 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+22:38:35.985 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:35.985 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:39.516 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+22:38:39.516 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+22:38:39.516 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 509
+22:38:39.516 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 509
+22:38:39.746 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:39.746 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:39.746 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:39.746621Z][ TESTHUB ] Batch event successfull!
+
+22:38:41.944 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:41.944 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:41.944 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:41.954 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:41.954 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:43.515 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+22:38:43.515 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+22:38:43.515 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1278
+22:38:43.515 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1278
+22:38:43.766 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:43.766 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:43.766 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:43.766347800Z][ TESTHUB ] Batch event successfull!
+
+22:38:44.300 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:44.330 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:44.330 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:44.330 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:44.330 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:44.330 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind CBTSessionCreated
+22:38:44.880 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:44.910 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:44.910 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:44.920 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:45.520 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+22:38:45.520 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+22:38:45.520 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1677
+22:38:45.520 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1677
+22:38:45.811 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:45.811 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:45.811 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:45.811926800Z][ TESTHUB ] Batch event successfull!
+
+22:38:46.382 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:46.402 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {args=[], script=browserstack_executor: {"action":"annotate","arguments":{"data":"passed","level":"info"}}}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.62 (93ab19d804d4..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: af8438d7962ed1515617af36914...}
+22:38:46.402 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:46.833 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - API Call response - {"automation_session":{"hashed_id":"af8438d7962ed1515617af36914661a884e510dc","name":"org.testRunner.TestNGTestRunner-runScenario","status":"passed","os":"Windows","os_version":"10","browser":"chrome","browser_version":"120.0","device":null,"duration":50,"reason":"CLIENT_STOPPED_SESSION","build_name":"bstack-demo 1","project_name":"BrowserStack Sample","build_hashed_id":"33c25cf77baf54cd9eaefc70014469a9cb01889d","test_priority":null}}
+22:38:46.843 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:46.843 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:46.883 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:46.883 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:46.883 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:38:46.883 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:46.883 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:38:46.883 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:38:46.917 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:46.917 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:38:46.933 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+22:38:46.933 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:46.933 [runScenario@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:38:46.933 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:46.933 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:46.933 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:46.963 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:46.963 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:46.963 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:38:46.963 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:46.993 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:46.993 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:47.033 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:47.033 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:47.033 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:38:47.033 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:47.043 [tearDownClass@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:38:47.043 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:38:47.043 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+22:38:47.043 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:38:47.093 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"fb0127cb-3eee-45ad-8161-0c038a391afe","buildIdentifier":"1","testhub_uuid":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":30.9189000017941,"sdk:testhub":19.891200002282858,"sdk:automate:hub-management":2498.7694999985397,"sdk:driver:pre-initialization":1.05,"sdk:setup":13778.39830000326,"sdk:pre-test":0.36639999970793724,"sdk:o11y:sync":14.07,"sdk:automate:session-name":543.6655000001192,"sdk:driver:post-initialization":1.21,"sdk:hook":0.27,"sdk:automate:session-annotation":14.48},"productUsage":{"testObservability":{"buildHashedId":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"sentCount":2,"triggeredCount":3,"failedCount":0,"errors":[]},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":0},"passed":{"sentCount":0,"triggeredCount":2,"failedCount":0,"errors":[]}},"logEvents":{"sentCount":51,"triggeredCount":52,"failedCount":0,"errors":[],"log":{"sentCount":51,"triggeredCount":52,"failedCount":0,"errors":[]}},"testEvents":{"started":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"passed":{"sentCount":0,"triggeredCount":1,"failedCount":0,"errors":[]}},"batchEvents":{"triggeredCount":7,"failedCount":0,"errors":[],"sentCount":7},"cbtSessionEvents":{"sentCount":1,"triggeredCount":1,"failedCount":0,"errors":[]},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":null,"status":null}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"14_Jan_2237_LAPTOP_C2U6NKPV_uNqN","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"os":"Windows","osVersion":"10","device":null,"browserVersion":"120.0","browser":"Chrome","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"os":"OS X","osVersion":"Monterey","device":null,"browserVersion":"15.6","browser":"Safari","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"bstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":3,"ret-org.openqa.selenium.remote.RemoteWebDriver":470,"retransformClasses":470,"parseDependencies":70},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:38:47.471 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+22:38:47.474 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:47.474 [tearDownClass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+22:38:47.474 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:47.474 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:47.474 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:48.586 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:48.586 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:48.586 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:48.586 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:48.586 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:49.516 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+22:38:49.516 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 10
+
+22:38:49.516 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5382
+22:38:49.516 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 5382
+22:38:49.806 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:49.806 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:49.806 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:49.806863500Z][ TESTHUB ] Batch event successfull!
+
+22:38:50.767 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:50.767 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:50.767 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:50.767 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:38:50.767 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:38:50.767 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind CBTSessionCreated
+22:38:51.138 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:51.168 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:51.168 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:51.168 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:51.518 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+22:38:51.518 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+22:38:51.518 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1097
+22:38:51.518 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1097
+22:38:51.721 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:51.731 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:51.732 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:51.732410200Z][ TESTHUB ] Batch event successfull!
+
+22:38:52.883 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:52.896 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {args=[], script=browserstack_executor: {"action":"annotate","arguments":{"data":"passed","level":"info"}}}]
+Capabilities {acceptInsecureCerts: false, browserName: Safari, browserVersion: 15.6.1, optimalHubUrl: hub-aps.browserstack.com, platformName: mac, safari:automaticInspection: false, safari:automaticProfiling: false, safari:diagnose: false, safari:platformBuildVersion: 21G83, safari:platformVersion: 12.5.1, safari:useSimulator: false, setWindowRect: true, strictFileInteractability: false, webdriver.remote.sessionid: d336a079f6258e7de21be607b24..., webkit:WebRTC: {DisableICECandidateFiltering: false, DisableInsecureMediaCapture: false}}
+22:38:52.896 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.335 [runScenario@1] DEBUG c.b.utils.SeleniumMethodUtils - API Call response - {"automation_session":{"hashed_id":"d336a079f6258e7de21be607b246cd5b35437e80","name":"org.testRunner.TestNGTestRunner-runScenario","status":"passed","os":"OS X","os_version":"Monterey","browser":"safari","browser_version":"15.6","device":null,"duration":52,"reason":"CLIENT_STOPPED_SESSION","build_name":"bstack-demo 1","project_name":"BrowserStack Sample","build_hashed_id":"33c25cf77baf54cd9eaefc70014469a9cb01889d","test_priority":null}}
+22:38:53.335 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:53.335 [runScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:53.395 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:53.395 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:53.395 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:38:53.395 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.395 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:38:53.395 [runScenario@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:38:53.425 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:53.425 [runScenario@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:38:53.435 [runScenario@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+22:38:53.445 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.445 [runScenario@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:38:53.445 [runScenario@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.445 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:53.445 [tearDownClass@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:53.475 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:53.475 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:53.475 [tearDownClass@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:38:53.475 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.495 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:38:53.495 [tearDownClass@1] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:38:53.525 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:38:53.525 [tearDownClass@1] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:38:53.525 [tearDownClass@1] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:38:53.525 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:53.525 [tearDownClass@1] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:38:53.525 [tearDownClass@1] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:38:53.525 [tearDownClass@1] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+22:38:53.525 [tearDownClass@1] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:38:53.535 [tearDownClass@1] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"fb0127cb-3eee-45ad-8161-0c038a391afe","buildIdentifier":"1","testhub_uuid":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":19.14,"sdk:testhub":19.891200002282858,"sdk:automate:session-name":456.01,"sdk:driver:post-initialization":1.21,"sdk:hook":0.18,"sdk:automate:idle-timeout":6.447700001299381,"sdk:automate:hub-management":2498.7694999985397,"sdk:driver:pre-initialization":1.05,"sdk:automate:session-status":0.02710000053048134,"sdk:setup":13778.39830000326,"sdk:pre-test":0.36639999970793724,"sdk:o11y:sync":9.94,"sdk:automate:session-annotation":11.96},"productUsage":{"testObservability":{"buildHashedId":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"sentCount":3,"triggeredCount":4,"failedCount":0,"errors":[]},"finished":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":2},"passed":{"sentCount":2,"triggeredCount":4,"failedCount":0,"errors":[]}},"logEvents":{"sentCount":58,"triggeredCount":59,"failedCount":0,"errors":[],"log":{"sentCount":58,"triggeredCount":59,"failedCount":0,"errors":[]}},"testEvents":{"started":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":1},"passed":{"sentCount":1,"triggeredCount":2,"failedCount":0,"errors":[]}},"batchEvents":{"triggeredCount":9,"failedCount":0,"errors":[],"sentCount":9},"cbtSessionEvents":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":null,"status":null}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"14_Jan_2237_LAPTOP_C2U6NKPV_uNqN","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"os":"Windows","osVersion":"10","device":null,"browserVersion":"120.0","browser":"Chrome","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"os":"OS X","osVersion":"Monterey","device":null,"browserVersion":"15.6","browser":"Safari","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"bstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":3,"ret-org.openqa.selenium.remote.RemoteWebDriver":470,"retransformClasses":470,"parseDependencies":70},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:38:54.006 [tearDownClass@1] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+22:38:54.006 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:54.006 [tearDownClass@1] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+22:38:54.006 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:54.006 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:54.015 [tearDownClass@1] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:54.015 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:54.015 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:38:54.025 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+22:38:54.025 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+22:38:54.025 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-14T17:08:54.025707600Z][ OBSERVABILITY ] Processing stop observability
+22:38:54.025 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 6
+
+22:38:54.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 4444
+22:38:54.025 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 4444
+22:38:54.316 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:54.316 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:54.316 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:08:54.316653200Z][ TESTHUB ] Batch event successfull!
+
+22:38:54.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+22:38:54.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0/stop with request size 65
+22:38:54.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0/stop with request size 65
+22:38:54.616 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:38:54.616 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:38:54.616 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+22:38:54.626 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:57.908 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:38:57.908 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:38:57.908 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:38:57.908 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+22:38:57.908 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:38:57.918 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"fb0127cb-3eee-45ad-8161-0c038a391afe","buildIdentifier":"1","testhub_uuid":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":14.74,"sdk:testhub":19.891200002282858,"sdk:post-test":0.12700000032782555,"sdk:automate:session-name":456.01,"sdk:driver:post-initialization":1.21,"sdk:o11y:print-buildlink":598.596400000155,"sdk:hook":0.18,"sdk:automate:idle-timeout":5.79,"sdk:automate:local":75026.15609999746,"sdk:automate:hub-management":2498.7694999985397,"sdk:driver:pre-initialization":1.05,"sdk:automate:session-status":0.03,"sdk:setup":13778.39830000326,"sdk:pre-test":0.36639999970793724,"sdk:o11y:sync":8.29,"sdk:automate:session-annotation":11.96},"productUsage":{"testObservability":{"buildHashedId":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"sentCount":4,"triggeredCount":4,"failedCount":0,"errors":[]},"finished":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":4},"passed":{"sentCount":4,"triggeredCount":4,"failedCount":0,"errors":[]}},"logEvents":{"sentCount":60,"triggeredCount":60,"failedCount":0,"errors":[],"log":{"sentCount":60,"triggeredCount":60,"failedCount":0,"errors":[]}},"testEvents":{"started":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]}},"batchEvents":{"triggeredCount":10,"failedCount":0,"errors":[],"sentCount":10},"cbtSessionEvents":{"sentCount":2,"triggeredCount":2,"failedCount":0,"errors":[]},"buildEvents":{"started":{"error":null,"triggered":true,"status":"success"},"finished":{"error":null,"triggered":true,"status":"success"}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"14_Jan_2237_LAPTOP_C2U6NKPV_uNqN","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"serenityOverridePlugin":false,"skipSessionName":false},"platforms":[{"capabilities":{},"os":"Windows","osVersion":"10","device":null,"browserVersion":"120.0","browser":"Chrome","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"},{"capabilities":{},"os":"OS X","osVersion":"Monterey","device":null,"browserVersion":"15.6","browser":"Safari","platformCaps":{"os":"OS X","osVersion":"Monterey","browserVersion":15.6,"browserName":"Safari"},"platformString":"OS X, Monterey, Safari, 15.6","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"bstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":3,"ret-org.openqa.selenium.remote.RemoteWebDriver":470,"retransformClasses":470,"parseDependencies":70},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:38:59.229 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+22:39:00.460 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:00.460 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+22:39:01.381 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.381 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.391 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.391 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.391 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.391 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.401 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:39:01.401 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 626
+22:39:02.912 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:39:02.912 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-14T17:09:01.000401 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":0.022800002247095108,\"eventName\":\"sdk:pre-test\",\"startTime\":1.97162875712E7,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"alokranjan_aSt4Dc","testhub_uuid":"fqduwlo5wnv0gfvcdkmbpzeta2bpnxjtfgrmuko0","host_info":"{\"hostname\":\"LAPTOP-C2U6NKPV\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 10\"}"}} {Content-Type=application/json}
+22:41:37.915 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:41:38.366 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+22:41:38.366 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+22:41:39.517 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -listener org.allureReport.AllureListener -socket57838 @w@C:\Users\Anupama\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Anupama\AppData\Local\Temp\idea_testng.tmp
+22:41:39.517 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+22:41:39.527 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+22:41:39.597 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+22:41:39.597 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+22:41:39.597 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.3
+22:41:39.597 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+22:41:39.597 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+22:41:39.597 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+22:41:39.597 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+22:41:40.034 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+22:41:40.194 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 160ms
+22:41:41.155 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 961ms
+22:41:42.345 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 1190ms
+22:41:42.345 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+22:41:42.396 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:41:42.396 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":10,"parseDependencies":70},"language":"java","sdkRunId":"b0276e79-8bf6-4c3d-8f9f-962440a4ce26","buildIdentifier":"1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.29.3","hostname":"LAPTOP-C2U6NKPV","language_framework":"java_testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:41:42.861 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+22:41:42.891 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:42.891 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+22:41:42.891 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 783
+22:41:42.891 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 783
+22:41:44.111 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:41:44.111 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:41:44.121 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp
+22:41:44.121 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+22:41:44.121 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 14_Jan_2241_LAPTOP_C2U6NKPV_HnHz
+22:41:50.694 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:51.596 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+22:41:51.756 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.756 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.756 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.756 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.756 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.766 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.766 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.766 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.766 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.766 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.777 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.777 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.777 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.777 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.777 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.787 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:51.797 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-14T17:11:51.797096100Z][ OBSERVABILITY ] Processing Logs patching stream
+22:41:51.797 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:51.867 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:41:51.867 [setUpClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:41:51.937 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:41:51.937 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:41:51.937 [setUpClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:41:51.947 [setUpClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:52.647 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:41:52.647 [Test_Automation-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:41:52.687 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:41:52.687 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:41:52.707 [Test_Automation-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+22:41:52.717 [Test_Automation-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:52.927 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:41:53.767 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1736874713767
+
+22:41:53.767 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 19
+
+22:41:53.767 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5831
+22:41:53.767 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 5831
+22:41:54.018 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:41:54.018 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:41:54.018 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:11:54.018497Z][ TESTHUB ] Batch event successfull!
+
+22:41:54.128 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:41:54.128 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 34
+22:41:54.128 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:41:54.128 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+22:41:57.765 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3998
+
+22:42:01.016 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+22:42:01.026 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+22:42:01.026 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:42:01.026 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:42:01.026 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:01.066 [Forwarding get on session e6ef50c323dff29c61fc32706690f74d94c39781 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.pom.swablabs.SwagLabsActions.login(SwagLabsActions.java:21)
+	at org.stepDefinition.SwagLab_StepDefinition.user_is_on_the_swag_lab_e_commerce_application_login_page_https_www_saucedemo_com(SwagLab_StepDefinition.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+22:42:01.762 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+22:42:03.763 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+22:42:05.767 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+22:42:07.768 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+22:42:10.849 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:10.849 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:10.849 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:10.849 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:11.769 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4001
+
+22:42:11.769 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+22:42:11.769 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1003
+22:42:11.769 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1003
+22:42:12.039 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:12.039 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:12.039 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:12:12.039185600Z][ TESTHUB ] Batch event successfull!
+
+22:42:15.766 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+22:42:17.769 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+22:42:21.766 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+22:42:25.768 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+22:42:26.897 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:26.897 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:29.763 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+22:42:29.763 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+22:42:29.763 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 509
+22:42:29.763 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 509
+22:42:29.993 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:29.993 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:29.993 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:12:29.993787Z][ TESTHUB ] Batch event successfull!
+
+22:42:31.766 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+22:42:33.768 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+22:42:37.765 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3997
+
+22:42:39.766 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+22:42:40.569 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:40.569 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:40.569 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:40.569 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:40.569 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:41.770 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2004
+
+22:42:41.770 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+22:42:41.770 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1263
+22:42:41.770 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1263
+22:42:42.050 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:42.050 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:42.050 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:12:42.050423800Z][ TESTHUB ] Batch event successfull!
+
+22:42:43.004 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:43.014 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:42:43.014 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:42:43.014 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+22:42:43.014 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+22:42:43.014 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind CBTSessionCreated
+22:42:43.385 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:43.405 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:43.405 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:43.405 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:44.916 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:44.956 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {args=[], script=browserstack_executor: {"action":"annotate","arguments":{"data":"passed","level":"info"}}}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.62 (93ab19d804d4..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: e6ef50c323dff29c61fc3270669...}
+22:42:44.956 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.426 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - API Call response - {"automation_session":{"hashed_id":"e6ef50c323dff29c61fc32706690f74d94c39781","name":"org.testRunner.TestNGTestRunner-runScenario","status":"passed","os":"Windows","os_version":"10","browser":"chrome","browser_version":"120.0","device":null,"duration":49,"reason":"CLIENT_STOPPED_SESSION","build_name":"browserstack-demo 1","project_name":"BrowserStack Sample","build_hashed_id":"00615a747812bf5a60f3fc9a7476adafc6df9a8d","test_priority":null}}
+22:42:45.426 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:42:45.426 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:42:45.456 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:42:45.456 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:42:45.456 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:42:45.466 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.466 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.testRunner.TestNGTestRunner 
+22:42:45.466 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+22:42:45.496 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\IdeaProjects\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:42:45.496 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\IdeaProjects\Test_Automation\.., Normalized Path :: C:\Users\Anupama\IdeaProjects 
+22:42:45.506 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+22:42:45.516 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.516 [runScenario@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+22:42:45.516 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.526 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:42:45.526 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:42:45.566 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:42:45.566 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:42:45.566 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+22:42:45.566 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.606 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+22:42:45.606 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\IdeaProjects\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+22:42:45.636 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\IdeaProjects\Test_Automation\., Normalized Path :: C:\Users\Anupama\IdeaProjects\Test_Automation, File.Separator :: \
+22:42:45.636 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+22:42:45.636 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+22:42:45.636 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:45.636 [tearDownClass@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:42:45.636 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:42:45.636 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+22:42:45.646 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:42:45.696 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"b0276e79-8bf6-4c3d-8f9f-962440a4ce26","buildIdentifier":"1","testhub_uuid":"vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":21.335200000554323,"sdk:testhub":14.45210000127554,"sdk:automate:hub-management":2666.153900001198,"sdk:driver:pre-initialization":1.2600000016391277,"sdk:setup":13510.45129999891,"sdk:pre-test":0.4585999995470047,"sdk:o11y:sync":9.4,"sdk:automate:session-name":362.4531999975443,"sdk:driver:post-initialization":1.6809000000357628,"sdk:hook":0.1,"sdk:automate:session-annotation":9.14},"productUsage":{"testObservability":{"buildHashedId":"vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":2,"failedCount":0},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"sentCount":0,"triggeredCount":2,"failedCount":0}},"logEvents":{"errors":[],"sentCount":28,"triggeredCount":30,"failedCount":0,"log":{"errors":[],"sentCount":28,"triggeredCount":30,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"sentCount":0,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":4,"failedCount":0,"errors":[],"sentCount":4},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":1,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":null,"triggered":null}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"14_Jan_2241_LAPTOP_C2U6NKPV_HnHz","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"serenityOverridePlugin":false,"skipSessionStatus":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","browser":"Chrome","os":"Windows","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":10,"ret-org.openqa.selenium.remote.RemoteWebDriver":402,"retransformClasses":402,"parseDependencies":70},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:42:45.766 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+22:42:45.766 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+22:42:45.766 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5781
+22:42:45.766 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 5781
+22:42:46.036 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:46.036 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:46.036 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:12:46.036309600Z][ TESTHUB ] Batch event successfull!
+
+22:42:46.036 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+22:42:46.036 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:46.046 [tearDownClass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+22:42:46.046 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:46.046 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:46.046 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:46.056 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:46.066 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+22:42:46.066 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+22:42:46.066 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+22:42:46.066 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-14T17:12:46.066319400Z][ OBSERVABILITY ] Processing stop observability
+22:42:46.066 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+22:42:46.066 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 340
+22:42:46.066 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 340
+22:42:46.316 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:46.316 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:46.316 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-14T17:12:46.316469700Z][ TESTHUB ] Batch event successfull!
+
+22:42:46.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+22:42:46.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp/stop with request size 65
+22:42:46.316 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp/stop with request size 65
+22:42:46.546 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:46.546 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+22:42:46.546 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+22:42:46.556 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:49.541 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:49.541 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:42:49.541 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:42:49.541 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+22:42:49.541 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+22:42:49.551 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"b0276e79-8bf6-4c3d-8f9f-962440a4ce26","buildIdentifier":"1","testhub_uuid":"vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":11.51,"sdk:testhub":14.45210000127554,"sdk:post-test":0.23909999802708626,"sdk:automate:session-name":362.4531999975443,"sdk:driver:post-initialization":1.6809000000357628,"sdk:o11y:print-buildlink":483.68430000171065,"sdk:hook":0.1,"sdk:automate:idle-timeout":6.240200001746416,"sdk:automate:local":65416.28830000013,"sdk:automate:hub-management":2666.153900001198,"sdk:driver:pre-initialization":1.2600000016391277,"sdk:automate:session-status":0.04910000041127205,"sdk:setup":13510.45129999891,"sdk:pre-test":0.4585999995470047,"sdk:o11y:sync":6.3,"sdk:automate:session-annotation":9.14},"productUsage":{"testObservability":{"buildHashedId":"vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":2,"triggeredCount":2,"failedCount":0},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"sentCount":2,"triggeredCount":2,"failedCount":0}},"logEvents":{"errors":[],"sentCount":31,"triggeredCount":31,"failedCount":0,"log":{"errors":[],"sentCount":31,"triggeredCount":31,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"cbtSessionEvents":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"14_Jan_2241_LAPTOP_C2U6NKPV_HnHz","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"serenityOverridePlugin":false,"skipSessionStatus":false},"platforms":[{"capabilities":{},"browserVersion":"120.0","browser":"Chrome","os":"Windows","osVersion":"10","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"device":null,"platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":10,"ret-org.openqa.selenium.remote.RemoteWebDriver":402,"retransformClasses":402,"parseDependencies":70},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+22:42:49.932 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+22:42:51.465 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.465 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+22:42:51.876 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.876 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.887 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.887 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.887 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+22:42:51.896 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 638
+22:42:53.407 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+22:42:53.407 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-14T17:12:51.000887 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":2666.153900001198,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":2.09825864539E7,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"alokranjan_aSt4Dc","testhub_uuid":"vhbl9moyynrvbfzl0hdiipqzmokmpad7fl6camyp","host_info":"{\"hostname\":\"LAPTOP-C2U6NKPV\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 10\"}"}} {Content-Type=application/json}
+22:45:43.954 [main] DEBUG c.b.utils.FunnelInstrumentation - Error in getting Product:
+java.lang.NullPointerException: Cannot invoke "String.equalsIgnoreCase(String)" because the return value of "com.browserstack.config.BrowserStackConfig.getFramework()" is null
+	at com.browserstack.utils.FunnelInstrumentation.a(Unknown Source)
+	at java.base/java.util.stream.MatchOps$1MatchSink.accept(MatchOps.java:90)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1002)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:230)
+	at java.base/java.util.stream.MatchOps$MatchOp.evaluateSequential(MatchOps.java:196)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.anyMatch(ReferencePipeline.java:632)
+	at com.browserstack.utils.FunnelInstrumentation.getProducts(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.createParamsForEvent(Unknown Source)
+	at com.browserstack.utils.FunnelInstrumentation.sendSDKEvent(Unknown Source)
+	at com.browserstack.testNgListeners.TmpSuiteListener.onFinish(Unknown Source)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:873)
+	at org.testng.TestRunner.afterRun(TestRunner.java:828)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+22:45:43.974 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+22:45:44.094 [main] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+22:45:44.144 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":null,"userName":null,"event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"f73e2b05-404c-4afb-824b-196560abf3be","buildIdentifier":"unknown","testhub_uuid":"","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":false,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:pre-test":0.016200002282857895},"productUsage":{"testObservability":{"buildHashedId":"","manuallySet":false,"enabled":false}},"browserStackConfig":{"browserstackLocal":null,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":null,"parallelsPerPlatform":null,"framework":null,"accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate]","buildName":"unknown","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"null","frameworkDetectionInstrumentation":{},"detectedDependencies":"cucumber","referrer":"unknown","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"unknown","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"null"}}
+22:45:44.935 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"Unauthorized"}
+22:45:44.944 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\IdeaProjects\Test_Automation\logs\key-metrics.json
+18:00:27.430 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+18:00:27.963 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+18:00:27.963 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+18:00:29.414 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket59827 @w@C:\Users\Anupama\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\Anupama\AppData\Local\Temp\idea_testng.tmp
+18:00:29.415 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+18:00:29.431 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+18:00:29.526 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: cucumber from dependencies
+18:00:29.526 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: cucumber-testng
+18:00:29.527 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.3
+18:00:29.530 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+18:00:29.530 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+18:00:29.530 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+18:00:29.530 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+18:00:29.978 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-aps.browserstack.com","hub-euw.browserstack.com","hub-apse.browserstack.com"]
+18:00:30.137 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 158ms
+18:00:30.927 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 787ms
+18:00:31.790 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-apse.browserstack.com HUB IS: 862ms
+18:00:31.821 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-aps.browserstack.com
+18:00:31.828 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:31.844 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+18:00:31.844 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":9,"parseDependencies":95},"language":"java","sdkRunId":"4cb5245a-085b-46b4-af89-1f5471b2451c","buildIdentifier":"2","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"cucumber, testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.29.3","hostname":"LAPTOP-C2U6NKPV","language_framework":"java_testng","detectedFramework":"cucumber-testng","detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+18:00:32.295 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+18:00:36.125 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:36.125 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+18:00:36.125 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 1282
+18:00:36.125 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 1282
+18:00:36.987 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:00:36.987 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:00:36.988 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq
+18:00:36.988 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+18:00:36.991 [main] DEBUG com.browserstack.LocalFactory - Starting BrowserStack Local with identifier 15_Jan_180_LAPTOP_C2U6NKPV_Qz9n
+18:00:43.969 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:45.020 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+18:00:45.243 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.248 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.255 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.255 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.255 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.257 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.257 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.258 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.258 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.258 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.273 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.274 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.274 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.274 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.274 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.288 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:45.296 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-15T12:30:45.296466800Z][ OBSERVABILITY ] Processing Logs patching stream
+18:00:45.298 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:45.394 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+18:00:45.394 [setUpClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+18:00:45.492 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:00:45.493 [setUpClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+18:00:45.496 [setUpClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+18:00:45.498 [setUpClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:46.194 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: org.testRunner.TestNGTestRunner 
+18:00:46.195 [Test_Automation-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+18:00:46.254 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\Automation_Framework\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:00:46.255 [Test_Automation-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\Automation_Framework\Test_Automation\.., Normalized Path :: C:\Users\Anupama\Automation_Framework 
+18:00:46.273 [Test_Automation-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+18:00:46.276 [Test_Automation-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:46.469 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:00:47.254 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1736944247254
+
+18:00:47.257 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 19
+
+18:00:47.257 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 5992
+18:00:47.258 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 5992
+18:00:47.500 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:00:47.500 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:00:47.500 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:30:47.500677200Z][ TESTHUB ] Batch event successfull!
+
+18:00:47.811 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+18:00:47.813 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 37
+18:00:47.815 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:47.818 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+18:00:51.254 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3999
+
+18:00:55.263 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4009
+
+18:00:55.589 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-aps.browserstack.com
+18:00:55.590 [runScenario@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+18:00:55.591 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+18:00:55.592 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+18:00:55.593 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:00:55.644 [Forwarding get on session f6b91c67badfce6c2693119ccc29155c6b3c2310 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:313)
+	at org.pom.swablabs.SwagLabsActions.login(SwagLabsActions.java:21)
+	at org.stepDefinition.SwagLab_StepDefinition.user_is_on_the_swag_lab_e_commerce_application_login_page_https_www_saucedemo_com(SwagLab_StepDefinition.java:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)
+	at io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:62)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:135)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+18:00:59.259 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3996
+
+18:01:03.249 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+18:01:05.070 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:05.073 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:05.073 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:05.073 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:05.257 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2008
+
+18:01:05.257 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 4
+
+18:01:05.257 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 1003
+18:01:05.257 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 1003
+18:01:05.473 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:05.473 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:05.473 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:31:05.473698Z][ TESTHUB ] Batch event successfull!
+
+18:01:09.258 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4001
+
+18:01:13.248 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3990
+
+18:01:15.258 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2010
+
+18:01:19.249 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3991
+
+18:01:20.671 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:20.672 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:21.251 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+18:01:21.251 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+18:01:21.251 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 509
+18:01:21.251 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 509
+18:01:21.473 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:21.473 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:21.473 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:31:21.473802400Z][ TESTHUB ] Batch event successfull!
+
+18:01:23.263 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2012
+
+18:01:27.263 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+18:01:31.251 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3988
+
+18:01:33.253 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2002
+
+18:01:34.514 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:34.515 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:34.516 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:34.516 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:34.517 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:36.919 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:36.951 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+18:01:36.951 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+18:01:36.952 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+18:01:36.952 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-aps.browserstack.com/wd/hub
+18:01:36.952 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind CBTSessionCreated
+18:01:37.253 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4000
+
+18:01:37.253 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 7
+
+18:01:37.253 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2954
+18:01:37.254 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2954
+18:01:37.287 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:37.310 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:37.311 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:37.312 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:37.468 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:37.468 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:37.469 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:31:37.469109400Z][ TESTHUB ] Batch event successfull!
+
+18:01:38.619 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:38.652 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Exception in marking performance status: Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '4.26.0', revision: '8ccf0219d7'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, executeScript {script=browserstack_executor: {"action":"annotate","arguments":{"data":"passed","level":"info"}}, args=[]}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.63, chrome: {chromedriverVersion: 120.0.6099.62 (93ab19d804d4..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:9222}, networkConnectionEnabled: false, optimalHubUrl: hub-aps.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: f6b91c67badfce6c2693119ccc2...}
+18:01:38.655 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.014 [runScenario@0] DEBUG c.b.utils.SeleniumMethodUtils - API Call response - {"automation_session":{"hashed_id":"f6b91c67badfce6c2693119ccc29155c6b3c2310","name":"org.testRunner.TestNGTestRunner-runScenario","status":"passed","os":"Windows","os_version":"10","browser":"chrome","browser_version":"120.0","device":null,"duration":49,"reason":"CLIENT_STOPPED_SESSION","build_name":"browserstack-demo 2","project_name":"BrowserStack Sample","build_hashed_id":"9516a4968865c26b745ea33d4215865e8a834556","test_priority":null}}
+18:01:39.017 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+18:01:39.017 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+18:01:39.060 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:01:39.060 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+18:01:39.060 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+18:01:39.062 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.062 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: org.testRunner.TestNGTestRunner 
+18:01:39.063 [runScenario@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: org\testRunner\TestNGTestRunner
+18:01:39.100 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\Anupama\Automation_Framework\Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:01:39.100 [runScenario@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: Test_Automation\src\test\java\org\testRunner\TestNGTestRunner.java, Absolute Path :: C:\Users\Anupama\Automation_Framework\Test_Automation\.., Normalized Path :: C:\Users\Anupama\Automation_Framework 
+18:01:39.117 [runScenario@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+18:01:39.118 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.119 [runScenario@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not found
+18:01:39.120 [runScenario@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.123 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+18:01:39.123 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+18:01:39.162 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:01:39.162 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+18:01:39.163 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+18:01:39.164 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.198 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: io.cucumber.testng.AbstractTestNGCucumberTests 
+18:01:39.198 [tearDownClass@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\Anupama\Automation_Framework\Test_Automation, TestClass :: io\cucumber\testng\AbstractTestNGCucumberTests
+18:01:39.239 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: null, fileSeparator :: \, AbsolutePath :: C:\Users\Anupama\Automation_Framework\Test_Automation\., Normalized Path :: C:\Users\Anupama\Automation_Framework\Test_Automation, File.Separator :: \
+18:01:39.239 [tearDownClass@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Fallback File Name is :: :\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml, Suite File Name :: C:\Users\Anupama\AppData\Local\JetBrains\IdeaIC2021.2\temp-testng-customsuite.xml
+18:01:39.239 [tearDownClass@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+18:01:39.240 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.243 [tearDownClass@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+18:01:39.243 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+18:01:39.243 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+18:01:39.248 [tearDownClass@0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+18:01:39.258 [pool-4-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+18:01:39.258 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+18:01:39.258 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 4432
+18:01:39.259 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 4432
+18:01:39.308 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"4cb5245a-085b-46b4-af89-1f5471b2451c","buildIdentifier":"2","testhub_uuid":"etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":23.963799998164177,"sdk:testhub":3810.5660999938846,"sdk:automate:hub-management":2192.2749000042677,"sdk:driver:pre-initialization":1.513201005756855,"sdk:setup":17635.237600006163,"sdk:pre-test":0.3334999978542328,"sdk:o11y:sync":11.17,"sdk:automate:session-name":333.1375989988446,"sdk:driver:post-initialization":2.1814000010490417,"sdk:hook":0.1,"sdk:automate:session-annotation":13.85},"productUsage":{"testObservability":{"buildHashedId":"etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":1},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":0}},"logEvents":{"errors":[],"failedCount":0,"triggeredCount":30,"sentCount":29,"log":{"errors":[],"failedCount":0,"triggeredCount":30,"sentCount":29}},"testEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":0}},"batchEvents":{"triggeredCount":5,"failedCount":0,"errors":[],"sentCount":4},"cbtSessionEvents":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":null,"triggered":null}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"15_Jan_180_LAPTOP_C2U6NKPV_Qz9n","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"browser":"Chrome","capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"device":null,"os":"Windows","osVersion":"10","platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":9,"ret-org.openqa.selenium.remote.RemoteWebDriver":375,"retransformClasses":376,"parseDependencies":95},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+18:01:39.477 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:39.477 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:39.478 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:31:39.478612900Z][ TESTHUB ] Batch event successfull!
+
+18:01:39.608 [tearDownClass@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+18:01:39.613 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.613 [tearDownClass@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+18:01:39.615 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.617 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.619 [tearDownClass@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.628 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:39.633 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+18:01:39.637 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+18:01:39.637 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+18:01:39.637 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-15T12:31:39.637189500Z][ OBSERVABILITY ] Processing stop observability
+18:01:39.637 [pool-5-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 1
+
+18:01:39.638 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 337
+18:01:39.638 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 337
+18:01:39.851 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:39.851 [pool-5-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:39.853 [pool-5-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-15T12:31:39.852359400Z][ TESTHUB ] Batch event successfull!
+
+18:01:39.853 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+18:01:39.853 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq/stop with request size 65
+18:01:39.853 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq/stop with request size 65
+18:01:40.072 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:40.073 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+18:01:40.073 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+18:01:40.078 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:43.393 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:43.394 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+18:01:43.394 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+18:01:43.395 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+18:01:43.395 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+18:01:43.408 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"726WsdULKzcPWuCptHpw","userName":"alokranjan_aSt4Dc","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"4cb5245a-085b-46b4-af89-1f5471b2451c","buildIdentifier":"2","testhub_uuid":"etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"LAPTOP-C2U6NKPV","measures":{"sdk:driver:quit":12.97,"sdk:testhub":3810.5660999938846,"sdk:post-test":0.09860099852085114,"sdk:automate:session-name":333.1375989988446,"sdk:driver:post-initialization":2.1814000010490417,"sdk:o11y:print-buildlink":437.63839999586344,"sdk:hook":0.1,"sdk:automate:idle-timeout":7.450699999928474,"sdk:automate:local":66401.48380000144,"sdk:automate:hub-management":2192.2749000042677,"sdk:driver:pre-initialization":1.513201005756855,"sdk:automate:session-status":0.03530000150203705,"sdk:setup":17635.237600006163,"sdk:pre-test":0.3334999978542328,"sdk:o11y:sync":7.47,"sdk:automate:session-annotation":13.85},"productUsage":{"testObservability":{"buildHashedId":"etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq","manuallySet":true,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":2},"finished":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"passed":{"errors":[],"failedCount":0,"triggeredCount":2,"sentCount":2}},"logEvents":{"errors":[],"failedCount":0,"triggeredCount":31,"sentCount":31,"log":{"errors":[],"failedCount":0,"triggeredCount":31,"sentCount":31}},"testEvents":{"started":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1}},"batchEvents":{"triggeredCount":6,"failedCount":0,"errors":[],"sentCount":6},"cbtSessionEvents":{"errors":[],"failedCount":0,"triggeredCount":1,"sentCount":1},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":true,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":{"localIdentifier":"15_Jan_180_LAPTOP_C2U6NKPV_Qz9n","key":"****"},"percyOptions":null,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"serenityOverridePlugin":false},"platforms":[{"browser":"Chrome","capabilities":{},"browserVersion":"120.0","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":120.0,"browserName":"Chrome"},"device":null,"os":"Windows","osVersion":"10","platformString":"Windows, 10, Chrome, 120.0","customVariables":"****"}],"parallelsPerPlatform":null,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack-demo","os":"Windows 10","languageVersion":"17.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":9,"ret-org.openqa.selenium.remote.RemoteWebDriver":375,"retransformClasses":376,"parseDependencies":95},"userFramework":"testng","detectedDependencies":"cucumber, testng","referrer":"testng-javaagent\/1.29.3","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"cucumber-testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.26.0","seleniumVersion":"4.26.0"}}
+18:01:43.716 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+18:01:44.982 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:44.982 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+18:01:45.485 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:45.487 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:45.489 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:45.490 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:45.491 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\Anupama\Automation_Framework\Test_Automation\logs\key-metrics.json
+18:01:45.498 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 626
+18:01:46.928 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+18:01:46.928 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-15T12:31:45.000496 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":0.016200002282857895,\"eventName\":\"sdk:pre-test\",\"startTime\":2.11828472909E7,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"alokranjan_aSt4Dc","testhub_uuid":"etfepfr0p64qo6ockgxcyejq9gsevps7advlfouq","host_info":"{\"hostname\":\"LAPTOP-C2U6NKPV\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 10\"}"}} {Content-Type=application/json}

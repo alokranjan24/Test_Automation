@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-12-18T19:04:06 IST" name="Test Automation Suite" finished-at="2024-12-18T19:04:54 IST" duration-ms="47760">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunner.TestNGTestRunner@6dd82486]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-12-18T19:04:06 IST" name="Regression" finished-at="2024-12-18T19:04:54 IST" duration-ms="47760">
+      <class name="org.testRunner.TestNGTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:org.testRunner.TestNGTestRunner@6dd82486]" started-at="2024-12-18T19:04:06 IST" name="setUpClass" finished-at="2024-12-18T19:04:09 IST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7aca299e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:org.testRunner.TestNGTestRunner@6dd82486]" started-at="2024-12-18T19:04:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-12-18T19:04:54 IST" duration-ms="45264" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User purchases two products and logs out"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["User purchases products on SwagLab eCommerce application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:org.testRunner.TestNGTestRunner@6dd82486]" started-at="2024-12-18T19:04:54 IST" name="tearDownClass" finished-at="2024-12-18T19:04:54 IST" duration-ms="97" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- org.testRunner.TestNGTestRunner -->
+    </test> <!-- Regression -->
+  </suite> <!-- Test Automation Suite -->
+</testng-results>
